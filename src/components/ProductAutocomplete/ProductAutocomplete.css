@@ -1,0 +1,35 @@
+.ProductAutocomplete {
+  margin: 0 auto;
+  width: 600px;
+}
+
+.ProductAutocomplete_item {
+  cursor: pointer;
+  color: rgb(46, 46, 46);
+  font-size: 18px;
+  padding: 18px 24px;
+}
+
+.ProductAutocomplete_item > span {
+  font-weight: bold;
+  color: rgb(89, 33, 207);
+}
+
+.ProductAutocomplete_item:hover,
+.ProductAutocomplete_item.m_hovered {
+  background: rgb(251, 244, 238);
+}
+
+.ProductAutocomplete_item.m_selected {
+  font-weight: bold;
+}
+
+.ProductAutocomplete_value_container {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 36px;
+}
+
+.ProductAutocomplete_value {
+  font-weight: bold;
+}
